@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1773879737185196}
+  m_IsPrefabParent: 1
+--- !u!1 &1773879737185196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4831079309983690}
+  - component: {fileID: 114394126594631650}
+  m_Layer: 0
+  m_Name: 2-3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4831079309983690
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773879737185196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8034362, y: 0.00006389618, z: -0.50310457}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114394126594631650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773879737185196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d0192af4f962b47b4dac571186f300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_displayName: Level 3
+  m_singleType: 0
+  m_enemyType: 0
+  clipList:
+  - {fileID: 8300000, guid: caed29b2000f66c4da5c86052fe3a42c, type: 3}
+  - {fileID: 8300000, guid: 05298c42e675f4444b7f9a54885cc745, type: 3}
+  - {fileID: 8300000, guid: 670a4c5d566baf04ba478a9f30bb6faa, type: 3}
+  - {fileID: 8300000, guid: 6bae33c576f081d498955d58d69823e6, type: 3}
+  - {fileID: 8300000, guid: e345d7292494b634f9077659b750318e, type: 3}
+  - {fileID: 8300000, guid: 7488608fcb44b3a449aacf59f48cd49a, type: 3}
+  - {fileID: 8300000, guid: 6971959327e1d264ab651c509b8cff29, type: 3}
+  - {fileID: 8300000, guid: 1b288fecbfed64f4aa90e01f5bc1b6c4, type: 3}
+  m_initialStems: 3
+  m_bonusTime: 15
+  m_enemyCountMax: 6
+  m_enemyScaleList:
+  - 0.5
+  - 0.65
+  - 0.8
+  m_enemySpawnTime: 1.4
+  m_spdBomb: 1
+  m_spdNinja: 4.5
+  m_spdOrbiter: 1
+  m_spdOrbiterRot: 0.8
+  m_orbiterDodgeSpdMult: 3
+  m_orbiterDodgeTime: 0.1
+  m_orbiterDodgeTimeBetween: 5
+  m_stemCountMax: 2
+  m_stemSpawnTime: 3

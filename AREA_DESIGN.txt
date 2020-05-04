@@ -1,0 +1,4 @@
+Area 1: orbiters
+Area 2: dodging orbiters
+Area 3: orbiters + ninja
+Area 4: dodging orbiters + ninja + bombs
